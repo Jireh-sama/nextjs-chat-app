@@ -16,7 +16,7 @@ const JoinRoom = ({ onJoinRoom, onChange }: JoinRoomProps) => {
   return (
     <>
       <header>
-        <h1 className="text-4xl text-center">Real Time Chat App</h1>
+        <h1 className="text-4xl font-bold text-center">Real Time Chat App</h1>
       </header>
 
       <form onSubmit={handleSubmit} className="flex flex-col space-y-3 ">
