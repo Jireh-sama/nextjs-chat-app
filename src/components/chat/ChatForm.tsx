@@ -19,6 +19,7 @@ const ChatForm = ({ sendMessage }: ChatInputProps) => {
   // Submit chat by pressing Enter key
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
+      e.preventDefault()
       sendMessage(message);
       setMessage("");
     }
