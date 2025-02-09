@@ -30,3 +30,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 <p align="center">
   <img src="https://github.com/Jireh-sama/project-assets/blob/main/join-existing-chatroom.png" alt="Image description">
 </p>
+
+## NOTE: App only works locally not sure how to deploy the app with socket.io
